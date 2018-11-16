@@ -1,7 +1,6 @@
 \documentclass[10pt,a4paper,sans]{moderncv}
 
-\moderncvstyle{casual}
-\moderncvcolor{blue}
+\moderncvtheme[red]{classic}
 \renewcommand{\familydefault}{\sfdefault}
 \nopagenumbers{}
 
@@ -16,8 +15,7 @@
 \homepage{https://github.com/noatgnu}
 
 \begin{document}
-\makecvtitle
-
+\maketitle
 \section{Education}
 \cventry{2017--Present}{Doctor of Philosophy}{The University of Queensland}{St. Lucia, Queensland, Australia}{}{}
 \cventry{2014--2016}{Master of Molecular Biology (Advanced)}{The University of Queensland}{St. Lucia, Queensland, Australia}{}{}
@@ -25,25 +23,24 @@
 \closesection{}
 
 \section{Relevant Experiences}
-\cvline{Research Project}{\emph{uPEPperoni: A 5' UTR Short Open Reading Frame searching tool}}
+\textbf{\cvline{Research Project}{\emph{uPEPperoni: A 5' UTR Short Open Reading Frame searching tool}}}
 \cvline{Supervisor}{Associate Professor Joe Rothnagel}
 \cvline{Description}{A tool for searching of sORF in user's input and similar sORF in other protein sequences within the program database and visualization of their positions using heatmap.}
 \cvline{Contribution}{
     Revamping code base and bug fixing.
     \newline Shifting part of the database from file based to RDBMS.
     \newline Integrating and improving functionality.}
-\cvline{}{}
-\cvline{Research Project}{\emph{SWATHLib, an automated workflow for theoretical ion library generation for glycopeptides}}
+
+\textbf{\cvline{Research Project}{\emph{SWATHLib, an automated workflow for theoretical ion library generation for glycopeptides}}}
 \cvline{Supervisor}{Associate Professor Benjamin L. Schulz}
 \cvline{Description}{DDA based spectral library together with complexity from post-translational modification are a suboptimal representation of ions within SWATH data. A workaround for this problem is a tedious process of creating a manually curated ion library. SWATHLib is created to address these problems.}
-\cvline{Contribution}{Writing of the JavaScript front-end using Angular 7 for automated user input collection.\newline Implementing a Python back-end for processing of user requests.}
-\cvline{}{}
-\cvline{Research Project}{\emph{Evolution and constraints of N-glycosylation Sequons}}
+\cvline{Contribution}{Writing of the JavaScript front-end using Angular 7 for automated user input collection.\newline Implementing a Python back-end for processing of user requests and automated modification combination generation.}
+
+\textbf{\cvline{Research Project}{\emph{Evolution and constraints of N-glycosylation Sequons}}}
 \cvline{Supervisor}{Associate Professor Benjamin L. Schulz}
 \cvline{Description}{Analysis of N-glycosylation sequons in Homo sapiens glycoprotein homologs, their alignment and phylogenetic relation.}
 \cvline{Contribution}{Programming of automation workflow, logic and analyses}
 \closesection{}
-\newpage
 \section{Extra-Curricula Activities}
 \cventry{2017}{Poster presented at the 13th Annual SCMB Research Students Symposium.}{The University of Queensland}{Australia}{}{}
 \cventry{}{Queensland Mass Spectrometry Symposium 2017}{QIMR Berghofer}{Australia}{}{}
@@ -51,7 +48,8 @@
 \cventry{2009--2014}{International Student Association (Executive officer and Webmaster)}{The University of Montana}{United States}{}{}
 \section{Skills}
 \begin{cvcolumns}
-    \cvcolumn{Programming Languages}{Python\newline JavaScript\newline TypeScript\newline Golang}
+    \cvcolumn{Programming Languages}{Python\newline JavaScript\newline TypeScript\newline Golang\newline R\newline \LaTeX{}}
+    \cvcolumn{Data Visualization}{D3.js}
     \cvcolumn{Languages}{English\newline Vietnamese}
 \end{cvcolumns}
 \closesection{}
@@ -60,7 +58,7 @@
 \section{References}
 \begin{cvcolumns}
     \cvcolumn{Benjamin L. Schulz}{Associate Professor \\ NHMRC Career Development Fellow \\ School of Chemistry and Molecular Biosciences \\ Faculty of Science \\ The University of Queensland \\ \phonesymbol +61 7 336 54875 \\ \emailsymbol b.schulz@uq.edu.au}
-    \cvcolumn{Joe Rothnagel}{Associate Professor \\ School of Chemistry and Molecular Biosciences \\ Faculty of Science \\ The University of Queensland \\ \phonesymbol +61 7 336 54629 \\ \emailsymbol j.rothnagel@uq.edu.au}
+    \cvcolumn{Joe Rothnagel}{Associate Professor \\ Past Chair, Teaching \& Learning Committee (2009-2013) \\ School of Chemistry and Molecular Biosciences \\ Faculty of Science \\ The University of Queensland \\ \phonesymbol +61 7 336 54629 \\ \emailsymbol j.rothnagel@uq.edu.au}
 \end{cvcolumns}
 \closesection{}
 \clearpage
